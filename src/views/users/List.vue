@@ -65,7 +65,7 @@
 </template>
 
 <script setup>
-import { ref, reactive, watch, computed, onMounted } from 'vue';
+import { reactive, watch, computed, onMounted } from 'vue';
 import { storeToRefs } from 'pinia';
 import { useUsersStore } from '@/stores';
 
