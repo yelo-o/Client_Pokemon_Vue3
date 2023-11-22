@@ -91,6 +91,7 @@ async function onSubmit(values) {
     <template v-if="pokemon?.error">
         <div class="text-center m-5">
             <div class="text-danger">Error loading pokemon: {{pokemon.error}}</div>
+            <router-link to="/pokemons" class="btn btn-link">Pokemon List</router-link>
         </div>
     </template>
 </template>
